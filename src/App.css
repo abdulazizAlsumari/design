@@ -1,0 +1,45 @@
+.App {
+  height: 100vh;
+  width: 100wh;
+  text-align: center;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number{
+  font-size: 1.6rem ;
+  margin-top: -10px;
+  color: #8dc63f;
+  font-family:    'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tis{
+  color: #8dc63f;
+}
+#continer-card{
+  font-weight: 500;
+    padding: 24px 0;
+    max-width: 220px;
+    max-height: 220px;
+    margin-top: 5px;
+    /* border-right: 1px solid #ccc; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header_stats{
+  display: flex;
+background-color: #ffffff;
+max-width: 220px;
+max-height: 220px;
+border-radius: 10px;
+justify-content:center;
+align-items:center;
+-webkit-box-shadow: 0 0 20px 0 hsla(0,0%,51%,.2);
+box-shadow: 0 0 20px 0 hsla(0,0%,51%,.2);
+}
